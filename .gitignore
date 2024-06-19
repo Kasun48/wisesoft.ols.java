@@ -1,8 +1,15 @@
 # Ignore config.properties to prevent committing sensitive information
 src/main/resources/config.properties
+src/main/resources/config.properties.template
 
-# Ignore Allure results
+# Ignore IntelliJ IDEA directory
+.idea/
+
+# Ignore Allure results directory
 allure-results/
+
+# Ignore specific HTML report
+Test Results - AdminTestRunner.html
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
