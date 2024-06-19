@@ -1,6 +1,9 @@
 # Ignore config.properties to prevent committing sensitive information
 src/main/resources/config.properties
 
+# Ignore Allure results
+allure-results/
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
